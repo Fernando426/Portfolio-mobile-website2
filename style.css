@@ -1637,7 +1637,13 @@ a {
   display: flex;
 }
 
-/* Here */
+.nav-list2 {
+  padding-top: 8%;
+  padding-left: 7%;
+  list-style: none;
+  margin-top: 1rem;
+  width: 100%;
+}
 
 .mobile-link a {
   width: 90%;
