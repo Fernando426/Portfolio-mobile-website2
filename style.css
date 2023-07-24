@@ -1637,13 +1637,7 @@ a {
   display: flex;
 }
 
-.nav-list2 {
-  padding-top: 8%;
-  padding-left: 7%;
-  list-style: none;
-  margin-top: 1rem;
-  width: 100%;
-}
+/* Here */
 
 .mobile-link a {
   width: 90%;
