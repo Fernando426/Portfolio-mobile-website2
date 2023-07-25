@@ -1888,10 +1888,11 @@ a {
 
   .subtitle-pop2 {
     display: block;
-    position: relative;
+    /* position: relative; */
     top: 2rem;
     height: 82px;
     width: 80%;
+    margin-top: 24px;
     padding-left: 1rem;
     padding-bottom: 5px;
     font-family: 'Roboto', sans-serif;
