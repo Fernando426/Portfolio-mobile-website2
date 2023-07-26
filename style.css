@@ -1735,6 +1735,33 @@ a {
   background-color: rgb(26, 30, 19);
 }
 
+.eachWork_Content {
+  display: block;
+  position: relative;
+  position: fixed;
+  top: 10%;
+  width: 90%;
+  height: 85%;
+  background-color: #fff;
+}
+.subtitle-pop2 {
+  display: none;
+}
+.subtitle-pop1 {
+  display: block;
+  position: relative;
+  top: 1.5rem;
+  height: 82px;
+  width: 80%;
+  padding-left: 1rem;
+  padding-bottom: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .img-X {
   position: absolute;
   top: 2.9rem;
