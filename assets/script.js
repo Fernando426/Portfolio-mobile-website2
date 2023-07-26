@@ -9,8 +9,7 @@ opneNave();
 closeNave();
 
 // ________________Insertar Contenido__________________//
-// PRIMER PROYECTO A MOSTRAR
-// Define el contenido del artículo que deseas insertar dinámicamente
+
 const worksContent = `
   <article class="works">
     <div class="works-content">
@@ -37,16 +36,12 @@ const worksContent = `
   </article>
 `;
 
-// Función para insertar dinámicamente el contenido del artículo en el lugar correcto del DOM
 const insertWorksContent = () => {
-  // Encuentra el contenedor donde deseas insertar el contenido (puedes usar un selector específico)
   const container = document.querySelector('.works');
 
-  // Inserta el contenido del artículo en el lugar correcto del DOM
   container.innerHTML = worksContent;
 };
 
-// Llama a la función para insertar el contenido del artículo dinámicamente
 insertWorksContent();
 
 // ________________Insertar Contenido-2-__________________//
@@ -166,17 +161,3 @@ openModal.forEach((button) => {
     });
   });
 });
-
-/* -----------------Validation-Form ---------------------*/
-// const form = document.querySelector('.aboutme-contact2');
-// const errorElement = document.querySelector('.error-message');
-// form.addEventListener('submit', (event) => {
-//   const emailInput = document.getElementById('mail');
-//   const emailValue = emailInput.value;
-//   if (emailValue !== emailValue.toLowerCase()) {
-//     errorElement.textContent = 'Email must be in lowercase';
-//     const submitButton = document.querySelector('.resume-button2');
-//     submitButton.parentNode.insertBefore(errorElement, submitButton);
-//     event.preventDefault();
-//   }
-// });
