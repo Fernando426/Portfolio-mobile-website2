@@ -1637,7 +1637,13 @@ a {
   display: flex;
 }
 
-/* Here */
+.nav-list2 {
+  padding-top: 8%;
+  padding-left: 7%;
+  list-style: none;
+  margin-top: 1rem;
+  width: 100%;
+}
 
 .mobile-link a {
   width: 90%;
@@ -1731,7 +1737,6 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 200px;
   background-color: rgb(26, 30, 19);
 }
 
@@ -1741,8 +1746,8 @@ a {
   position: fixed;
   top: 10%;
   width: 90%;
-  height: 85%;
   background-color: #fff;
+  transition: 1s;
 }
 
 .subtitle-pop2 {
@@ -1752,11 +1757,11 @@ a {
 .subtitle-pop1 {
   display: block;
   position: relative;
-  top: 1.5rem;
+  top: 2rem;
   height: 82px;
   width: 80%;
   padding-left: 1rem;
-  padding-bottom: 35px;
+  padding-bottom: 60px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1799,7 +1804,6 @@ a {
 
 .eachWorkImgContent {
   margin-left: 1rem;
-  max-width: 325px;
 }
 
 .eachWorkImg {
@@ -1822,7 +1826,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 16px;
-  max-width: 325px;
+  max-width: 424px;
 }
 
 .description-p2 {
@@ -1883,11 +1887,11 @@ a {
   }
 
   .subtitle-pop2 {
-    margin-top: 24px;
     display: block;
     top: 2rem;
     height: 82px;
     width: 80%;
+    margin-top: 24px;
     padding-left: 1rem;
     padding-bottom: 5px;
     font-family: 'Roboto', sans-serif;
@@ -1916,10 +1920,11 @@ a {
     display: flex;
     justify-content: space-between;
     width: 308px;
-    margin-top: 14px;
+    margin-top: 64px;
   }
 
   .container_inf_button {
+    margin-left: 25px;
     width: 45%;
   }
 
@@ -1934,18 +1939,13 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    font-size: 14px;
-    line-height: 1.8rem;
+    line-height: 30px;
     display: block;
-    width: 100%;
+    width: 95%;
   }
 
   .description {
     display: flex;
-    align-items: flex-end;
-    height: 60%;
-    width: 100%;
-    overflow-x: hidden;
   }
 
   .description p {
@@ -1954,7 +1954,7 @@ a {
 
   .eachWorkImg {
     width: 100%;
-    height: 100%;
+    height: auto;
     max-width: 659px;
     margin-bottom: 24px;
   }
