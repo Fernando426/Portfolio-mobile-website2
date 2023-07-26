@@ -133,6 +133,12 @@ You can deploy this project using:
 - Twitter: [@erosa_c](https://twitter.com/erosa_c)
 - LinkedIn: [Jhonatan Ali Caamal Erosa](https://www.linkedin.com/in/jhonatan-ali-caamal-erosa-bb3829271/)
 
+👤 **José De La Rosa**
+
+- GitHub: [@jrraul4](https://github.com/jrraul4)
+- Twitter: [@josedelarosa_1](https://twitter.com/joserauldelaro1)
+- LinkedIn: [José De La Rosa](https://www.linkedin.com/in/jose-raul-de-la-rosa-98aa70265/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
