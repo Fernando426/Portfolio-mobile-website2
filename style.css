@@ -1744,9 +1744,11 @@ a {
   height: 85%;
   background-color: #fff;
 }
+
 .subtitle-pop2 {
   display: none;
 }
+
 .subtitle-pop1 {
   display: block;
   position: relative;
