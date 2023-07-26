@@ -127,6 +127,12 @@ You can deploy this project using:
 - Twitter: [@Fernando_426_](https://twitter.com/Fernando_426_)
 - LinkedIn: [Fernando Montes](https://www.linkedin.com/in/fernando-jose-montes-linares-523822270/?originalSubdomain=ve)
 
+👤 **Jhonatan Caamal Erosa**
+
+- GitHub: [@JhonatanErosa](https://github.com/JhonatanErosa)
+- Twitter: [@erosa_c](https://twitter.com/erosa_c)
+- LinkedIn: [Jhonatan Ali Caamal Erosa](https://www.linkedin.com/in/jhonatan-ali-caamal-erosa-bb3829271/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
