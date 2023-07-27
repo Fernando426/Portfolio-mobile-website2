@@ -9,7 +9,6 @@ opneNave();
 closeNave();
 
 // ________________Insertar Contenido__________________//
-
 const worksContent = `
   <article class="works">
     <div class="works-content">
@@ -126,30 +125,32 @@ openModal.forEach((button) => {
     popUp.innerHTML = `
     <section class="eachWork" >
     <div class="eachWork_Content">
-      <h2 class="subtitle-pop1">Multi Post Stories</h2>
-      <h2 class="subtitle-pop2">Keeping track of hundreds  of components website</h2>
-      <img onclick="closePopup(); "class="img-X" src="./images/Icon_X_.png" alt="">
-      <ul class="tecnologies"> 
-        <li>HTML</li>
-        <li>Bootstrap</li>
-        <li>Ruby on Rails</li>
-      </ul>
+      <div class="content2">
+        <h2 class="subtitle-pop1">Multi Post Stories</h2>
+        <h2 class="subtitle-pop2">Keeping track of hundreds  of components website</h2>
+        <img onclick="closePopup(); "class="img-X" src="./images/Icon_X_.png" alt="">
+        <ul class="tecnologies"> 
+          <li>HTML</li>
+          <li>Bootstrap</li>
+          <li>Ruby on Rails</li>
+        </ul>
 
-      <div class="description">
-        <div class="eachWorkImgContent">
-          <img class ="eachWorkImg" src="/images/Snapshoot Portfolio.png" alt="" srcset="">
-        </div>
-        <div class="container_inf_button">
-          <p class="description-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
-          <p class="description-p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br>
+        <div class="description">
+          <div class="eachWorkImgContent">
+            <img class ="eachWorkImg" src="/images/Snapshoot Portfolio.png" alt="" srcset="">
+          </div>
+          <div class="container_inf_button">
+            <p class="description-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+            <p class="description-p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br>
 
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
-          <div class="containerEachWorkButton">
-            <a href="https://fernando426.github.io/Portfolio-mobile-website/" target="_blank"><button id="liveBtn" class="liveBtn">See live<img src="/images/IconLive.png"></button></a>
-            <a href="https://github.com/Fernando426" target="_blank"><button id="sourceBtn">See source<img src="/images/Icon -GitHubEach.png"></button></a>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
+            <div class="containerEachWorkButton">
+              <a href="https://fernando426.github.io/Portfolio-mobile-website/" target="_blank"><button id="liveBtn" class="liveBtn">See live<img src="/images/IconLive.png"></button></a>
+              <a href="https://github.com/Fernando426" target="_blank"><button id="sourceBtn">See source<img src="/images/Icon -GitHubEach.png"></button></a>
+            </div>
           </div>
         </div>
-      </div>
+        
     </div>
   </section>
           `;
