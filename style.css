@@ -186,6 +186,7 @@ a {
 }
 
 .subtitle {
+  color: #091e42;
   margin-top: 120px;
   margin-bottom: 44px;
   font-family: 'Crete Round', serif;
@@ -208,6 +209,7 @@ a {
 }
 
 .subtitle2 {
+  color: #091e42;
   margin-top: 24px;
   margin-left: 26px;
   font-family: 'Crete Round', serif;
@@ -815,6 +817,7 @@ a {
   }
 
   .subtitle2 {
+    color: #091e42;
     margin-top: 0;
     margin-left: 26px;
     font-family: 'Crete Round', serif;
@@ -825,6 +828,7 @@ a {
   }
 
   .paragraf01 {
+    color: #091e42;
     width: 448px;
     height: 140px;
     margin-left: 30px;
@@ -954,6 +958,7 @@ a {
   }
 
   .ul-tecnologies-works-1 li {
+    color: #091e42;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.24);
     margin-right: 12px;
@@ -1755,6 +1760,7 @@ a {
 }
 
 .subtitle-pop1 {
+  color: #091e42;
   display: block;
   position: relative;
   top: 2rem;
@@ -1819,6 +1825,7 @@ a {
 }
 
 .description-p1 {
+  color: #091e42;
   display: block;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -1855,6 +1862,25 @@ a {
   margin-bottom: 20px;
 }
 
+#liveBtn:hover,
+#sourceBtn:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+#liveBtn:active,
+#sourceBtn:active {
+  color: #fff5e1;
+  background-color: #f55800;
+}
+
+#liveBtn:disabled,
+#sourceBtn:disabled {
+  color: #5b5957;
+  background-color: #fff5e1;
+  cursor: not-allowed;
+}
+
 #liveBtn img,
 #sourceBtn img {
   margin-left: 15px;
@@ -1887,6 +1913,7 @@ a {
   }
 
   .subtitle-pop2 {
+    color: #091e42;
     display: block;
     top: 2rem;
     height: 82px;
@@ -1929,12 +1956,13 @@ a {
   }
 
   .description-p1 {
+    color: #091e42;
     display: none;
-    background-color: #ba2eaa;
     max-width: 95%;
   }
 
   .description-p2 {
+    color: #091e42;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
