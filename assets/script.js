@@ -162,3 +162,7 @@ openModal.forEach((button) => {
     });
   });
 });
+
+.Validation-email small {
+
+};
