@@ -163,6 +163,7 @@ openModal.forEach((button) => {
   });
 });
 
-.Validation-email small {
-
-};
+// _____________CONTACT FORM VALIDATION_______________
+const form = document.getElementById('form');
+const emailValidation = document.querySelector('.Validation-email');
+const email = document.getElementById('email');
