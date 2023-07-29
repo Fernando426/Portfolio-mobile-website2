@@ -185,3 +185,5 @@ form.addEventListener('submit', (elem) => {
     form.submit();
   }
 });
+
+// ________CODE FOR PRESERVING DATA INTHE FORM ____________
