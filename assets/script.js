@@ -191,3 +191,19 @@ form.addEventListener('submit', (elem) => {
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const messageInput = document.getElementById('mesagge');
+
+// Load the data from the local storage when the page loads
+window.addEventListener('load', () => {
+  const savedName = localStorage.getItem('name');
+  const savedEmail = localStorage.getItem('email');
+  const savedMessage = localStorage.getItem('message');
+  if (savedName) {
+    nameInput.value = savedName;
+  }
+  if (savedEmail) {
+    emailInput.value = savedEmail;
+  }
+  if (savedMessage) {
+    messageInput.value = savedMessage;
+  }
+});
