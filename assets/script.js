@@ -186,4 +186,8 @@ form.addEventListener('submit', (elem) => {
   }
 });
 
-// ________CODE FOR PRESERVING DATA INTHE FORM ____________
+// __CODE FOR PRESERVING DATA INTHE FORM __
+
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const messageInput = document.getElementById('mesagge');
