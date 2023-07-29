@@ -197,6 +197,7 @@ window.addEventListener('load', () => {
   const savedName = localStorage.getItem('name');
   const savedEmail = localStorage.getItem('email');
   const savedMessage = localStorage.getItem('message');
+
   if (savedName) {
     nameInput.value = savedName;
   }
@@ -206,4 +207,15 @@ window.addEventListener('load', () => {
   if (savedMessage) {
     messageInput.value = savedMessage;
   }
+});
+
+// Save the data from the form in local storage when the user changes the fields
+form.addEventListener('input', () => {
+  const nameValue = nameInput.value;
+  const emailValue = emailInput.value;
+  const messageValue = messageInput.value;
+
+  localStorage.setItem('name', nameValue);
+  localStorage.setItem('email', emailValue);
+  localStorage.setItem('message', messageValue);
 });
