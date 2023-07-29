@@ -167,3 +167,21 @@ openModal.forEach((button) => {
 const form = document.getElementById('form');
 const emailValidation = document.querySelector('.Validation-email');
 const email = document.getElementById('email');
+
+function validateInputs() {
+  const valueEmail = email.value;
+  if (valueEmail !== valueEmail.toLowerCase()) {
+    emailValidation.classList.add('invalidEmail');
+    return false;
+  }
+  emailValidation.classList.remove('invalidEmail');
+  return true;
+}
+
+form.addEventListener('submit', (elem) => {
+  elem.preventDefault();
+  const valid = validateInputs();
+  if (valid === true) {
+    form.submit();
+  }
+});
