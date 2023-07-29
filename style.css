@@ -621,7 +621,6 @@ a {
   cursor: pointer;
   background-color: #ff6b00;
   color: #fff;
-  margin-top: 24px;
   margin-bottom: 78px;
   width: 156px;
   height: 48px;
@@ -2015,4 +2014,24 @@ a {
 
 .error-message {
   display: none;
+}
+
+/* _____________CONTACT FORM VALIDATION_______________ */
+
+.Validation-email small {
+  visibility: hidden;
+  color: rgb(255, 238, 0);
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  background: #ff000080;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+}
+
+.invalidEmail small {
+  visibility: visible;
+}
+
+.Validation-email {
+  margin-top: 2rem;
 }
