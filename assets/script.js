@@ -186,4 +186,36 @@ form.addEventListener('submit', (elem) => {
   }
 });
 
-// ________CODE FOR PRESERVING DATA INTHE FORM ____________
+// __CODE FOR PRESERVING DATA INTHE FORM __
+
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const messageInput = document.getElementById('mesagge');
+
+// Load the data from the local storage when the page loads
+window.addEventListener('load', () => {
+  const savedName = localStorage.getItem('name');
+  const savedEmail = localStorage.getItem('email');
+  const savedMessage = localStorage.getItem('message');
+
+  if (savedName) {
+    nameInput.value = savedName;
+  }
+  if (savedEmail) {
+    emailInput.value = savedEmail;
+  }
+  if (savedMessage) {
+    messageInput.value = savedMessage;
+  }
+});
+
+// Save the data from the form in local storage when the user changes the fields
+form.addEventListener('input', () => {
+  const nameValue = nameInput.value;
+  const emailValue = emailInput.value;
+  const messageValue = messageInput.value;
+
+  localStorage.setItem('name', nameValue);
+  localStorage.setItem('email', emailValue);
+  localStorage.setItem('message', messageValue);
+});
